@@ -10,6 +10,8 @@ public class BFSTest
 
 	public static void main(String[] args) 
 	{ 
+		System.out.println("This is a change.");
+		
 		Node station1 = new Node("Westminster", null, null);
 		Node station2 = new Node("Waterloo", station1, null);
 		Node station3 = new Node("Trafalgar Square", station1, station2);
